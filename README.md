@@ -1,6 +1,7 @@
 # Summary for tgrunert-dotfiles 
 
 Small tools for shell to make k8s admin life easier. 
+Most solutions tested with Ubuntu and Git Bash for Windows.
 
 # Usage
 
@@ -25,7 +26,7 @@ Start a new shell and use it. See separate chapters for functions.
 Config files in a directory will collected and added to $KUBECONFIG at startup shell. So adding and removing file is enough. No more merge of "master-config" needed.
 Credits to https://github.com/GeertJohan/kube-multi-config
 
-Tools will create `~/.kube-multi` directory. Put your cluster configfiles into this directory and restart your shell. kubectl will regognize the new files. To remove config-files just remove it from this directory. kubectl will recognize this immediately.
+Tools will create `~/.kube-multi` directory. Put your cluster configfiles into this directory and restart your shell. kubectl will recognize the new files. To remove config-files just remove it from this directory. kubectl will recognize this immediately.
 
 
 # Credits
