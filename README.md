@@ -1,16 +1,16 @@
-# Summary for dotfiles 
+# Summary for tgrunert-dotfiles 
 
 Small tools for shell to make k8s admin life easier. 
 
 # Usage
 
-1. Checkout this repo into ~/dotfiles.
+1. Checkout this repo into ~/tgruenert-dotfiles.
 
 2. Define auto startup
 
 Add 
 ```
-source ~/startdotfiles.sh
+source ~/tgruenert-dotfiles/startdotfiles.sh
 ```
 at end of your ~/.bashrc
 
@@ -27,3 +27,9 @@ Credits to https://github.com/GeertJohan/kube-multi-config
 
 Tools will create `~/.kube-multi` directory. Put your cluster configfiles into this directory and restart your shell. kubectl will regognize the new files. To remove config-files just remove it from this directory. kubectl will recognize this immediately.
 
+
+# Credits
+
+Most of thees snippets are collected from other authors.
+
+https://github.com/GeertJohan/kube-multi-config

@@ -1,4 +1,4 @@
 
-# compile all found files in $KUBECONFIG
-source ${HOME}/.kube-multi-config/export-kubeconfig
+# add all files found in dir to $KUBECONFIG
+source ${HOME}/tgruenert-dotfiles/multi-cluster-config/export-kubeconfig
 
