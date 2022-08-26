@@ -35,6 +35,7 @@ If you use Lens
 * select `~/.kube` and `~/.kube-multi`
 Now Lens can detect all your config files.
 
+For a shared directory of kubectl configs also directory `~/.kube-shared` is supported.
 
 ## kubectl alias
 
